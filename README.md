@@ -1,5 +1,5 @@
 # Data
-- To test the solution the 2GB dump of personal emails data from Gmail in `.eml` format was extracted.
+- To test the solution the 2GB dump of personal emails data from Gmail in `.mbox` format were extracted and converted to `.eml` format.
 - `88 emails` were selected for final tests given their variety of language and format to save resources and time.
 
 # Approaches tested

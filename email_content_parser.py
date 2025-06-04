@@ -130,7 +130,6 @@ def process_multiple_emails(email_folder_path, csv_output_filename=None):
 
             if email_content.strip():
                 try:
-                    # cleaned_content = local_llm_signature_removal(email_content)
                     cleaned_content = openai_signature_removal(email_content)
 
                     status = "Success"

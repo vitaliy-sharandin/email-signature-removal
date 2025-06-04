@@ -23,7 +23,8 @@
 OpenAI `gpt-4o` API is a clear winner, as it does the job with single request and `99%` success rate.
 
 # Running solution
-1. Create and fill the .env file with environment variables.
+1. Create and fill the .env file with environment variables.<br>
+Location of eml files and openai api key.
 ```
 EML_EMAILS_FOLDER=
 OPENAI_API_KEY=

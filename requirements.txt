@@ -1,0 +1,8 @@
+eml-parser
+pymupdf
+langchain-ollama
+langchain
+langchain-openai
+ollama
+beautifulsoup4
+python-dotenv

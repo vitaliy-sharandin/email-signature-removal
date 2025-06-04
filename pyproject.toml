@@ -1,0 +1,19 @@
+[project]
+name = "email-content-parser"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "eml-parser",
+    "pymupdf",
+    "langchain-ollama",
+    "langchain",
+    "langchain-openai",
+    "ollama",
+    "beautifulsoup4",
+    "dotenv",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
